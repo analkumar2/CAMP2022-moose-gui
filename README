@@ -10,6 +10,6 @@ sudo apt-get install graphviz libgraphviz-dev pkg-config
 python3 -m pip install pygraphviz
 python3 -m pip install networkx
 
-https://github.com/BhallaLab/CAMP2022-moose-gui moose-gui
+git clone https://github.com/BhallaLab/CAMP2022-moose-gui moose-gui
 cd moose-gui
 python3 mgui.py examples/reaction.g
