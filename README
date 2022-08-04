@@ -1,3 +1,9 @@
+Graphical interface of chemical signaling models for MOOSE
+
+Note: git pull moose-core 
+if installed via pip then copy add_Delete_ChemicalSolver.py into "~/moose-core/python/moose/chemUtil/"
+
+
 python3 -m pip install matplotlib
 python3 -m pip install pyqt5
 sudo apt-get install graphviz libgraphviz-dev pkg-config
